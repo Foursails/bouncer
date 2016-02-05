@@ -1,9 +1,5 @@
 # Bouncer
-An out-of-the-box list filter value converter for Aurelia
-
-# What does Bouncer do?
-
-Lets say you have a list and some controls on the page designed to filter the list:
+An out-of-the-box list filter value converter for Aurelia. Bouncer makes it easy to hook up your application's filter controls to any list. For example:
   - tags you can filter by, e.g. "aurelia" "template"
   - a text box, e.g. "matt davis"
   - date boxes, e.g. "before 2016-01-01", "after 2015-09-01"
