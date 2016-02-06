@@ -1,5 +1,6 @@
 body {
   margin: 0 0 60px 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 :not(input) {
@@ -18,6 +19,15 @@ body {
   display: block;
   margin: 12px auto;
   text-align: center;
+}
+
+.splash h2 > img {
+  vertical-align: bottom;
+}
+
+.navbar-brand > img {
+  margin: -6px 0;
+  display: inline;
 }
 
 .page-host {
