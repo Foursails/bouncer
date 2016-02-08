@@ -49,6 +49,11 @@ If your properties don't contain simple strings you can also specify the filter 
 `array | filter: { on: ["date"], value: startDate, mode: ">=" } | filter { on: ["date"], value: endDate, mode: "<" }`
 
 # Documentation
+## Installation via systemjs
+Bouncer can be installed by downloading it and placing it within your project, ideally in a "components" folder. To use it, you must require it into your view with `<require from="path/to/bouncer"></require>`.
+
+You can also install bouncer via the command line with `jspm install github:foursails/bouncer`. Then require bouncer in any page by adding `<require from="bouncer"></require>`.
+
 ## array | filter: { on: properties }
 Specifies the field(s) from the list objects on which to search. If multiple fields are passed, then matches on at least one property is considered a match.
 
