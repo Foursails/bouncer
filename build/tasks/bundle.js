@@ -7,9 +7,8 @@ var config = {
   bundles: {
     "dist/app-build": {
       includes: [
-        '**/[*.js]',
-        '**/*.html!text',
-        '**/*.css',
+        '**/*.js',
+        '**/*.html!text'
       ],
       excludes: [
         'components/bouncer.js'
@@ -65,11 +64,7 @@ var config = {
   }
 };
 
-gulp.task('minify', function() {
-  return bundler.bundle(minify);
-});
-
-gulp.task('bundle', function() {
+gulp.task('bundle', ['build'], function() {
   return bundler.bundle(config);
 });
 

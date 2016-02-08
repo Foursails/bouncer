@@ -238,7 +238,13 @@ System.config({
       "components/bouncer.js"
     ],
     "app-build.js": [
-      "app.html!github:systemjs/plugin-text@0.0.4.js"
+      "app.html!github:systemjs/plugin-text@0.0.4.js",
+      "app.js",
+      "data.js",
+      "github:components/jquery@2.2.0.js",
+      "github:components/jquery@2.2.0/jquery.js",
+      "github:twbs/bootstrap@3.3.6.js",
+      "github:twbs/bootstrap@3.3.6/js/bootstrap.js"
     ],
     "vendor-build.js": [
       "github:components/jquery@2.2.0.js",
