@@ -9,20 +9,22 @@
   </head>
   <body>
 
-    <section aurelia-app>
-      <div class="splash panel panel-default">
-        <div class="splash-message panel-body">
-          <h2>
-            <img src="img/logo.png" />
-            Bouncer
-          </h2>
-          <span>
-            <i class="fa fa-spinner fa-pulse"></i>
-            Loading
-          </span>
-        </div>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>
+          <img src="img/logo.png" />
+          Bouncer
+        </h1>
+        <p>An out-of-the-box list filter value converter for Aurelia. Bouncer makes it easy to hook up controls to filter any list in Aurelia.</p>
+        <a href="https://github.com/foursails/bouncer" class="btn btn-lg btn-primary">Source available in GitHub</a>
       </div>
+    </div>
 
+    <section aurelia-app>
+      <div class="splash">
+        <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        <h1>Loading</h1>
+      </div>
       <script src="jspm_packages/system.js"></script>
       <script src="config.js"></script>
       <script>

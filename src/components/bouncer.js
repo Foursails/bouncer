@@ -11,6 +11,9 @@ const MODES = {
 }
 
 export class FilterValueConverter {
+  constructor(binding) {
+    this.binding = binding;
+  }
   toView(array, opts) {
   
     if (!opts) {
@@ -24,7 +27,7 @@ export class FilterValueConverter {
     
     var props;
     if (opts.on) {
-      props = opts.on instanceof Array ? opts.on : [opts.on];
+      props = opts.on instanceof Array ? props = opts.on : props = [opts.on];
     } 
     var vals = opts.value instanceof Array ? opts.value : [opts.value];
     var mode;

@@ -20,10 +20,12 @@ export class App {
   }
 
   activate() {
-    this.title = '';
+    this.title = 'Final';
     this.platforms.length = 0;
     this.name.length = 0;
+    this.name.push("George");
     this.random = false;
+    this.until = new Date('2000-01-01');
   }
 
   decideOnAWhim(value, item) {
