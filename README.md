@@ -1,5 +1,5 @@
 # Bouncer
-An out-of-the-box list filter value converter for Aurelia. Bouncer makes it easy to hook up controls to filter any list in Aurelia.
+Stop writing and rewriting the same filter logic over and over. Bouncer is an out-of-the-box list filter value converter for Aurelia. Bouncer makes it easy to hook up controls to filter any list in Aurelia.
 
 # Filter a simple list 
 Pass in a search term and it will filter the list for matches.
